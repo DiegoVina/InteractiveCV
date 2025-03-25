@@ -5,8 +5,6 @@ const paper2Element = document.getElementById('paper2');
 
 folderElement.addEventListener('click', function() {
     folderElement.classList.toggle('open');
-    paperElement.classList.toggle('page');
-    paper2Element.classList.toggle('page');
 });
 
 postItElement.addEventListener('click', function(event) {
